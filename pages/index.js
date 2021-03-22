@@ -8,13 +8,15 @@ export default function Home() {
 
 
 return (
-    <div>
-<main>
-
-<button className= {styles.button1}> HELLO WORLD, THIS IS LIVE TESTING </button>
-</main>
-
-<footer> CS 701 Final Project</footer>
+   
+<div className={styles.body}>
+<Head>
+    <title>Panther Crush Welcome</title>
+  </Head>
+    <main>
+       <p className= {styles.title}> HELLO WORLD, THIS IS LIVE TESTING </p> 
+    </main>
+    <footer className={styles.footer1}> CS 701 Final Project</footer>
 </div>
 
 );

@@ -28,30 +28,51 @@ var _jsxFileName = "C:\\Users\\dgny9\\Desktop\\Spring2021\\SeminarCS\\Project\\W
 
 function Home() {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("main", {
-      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
-        className: _pages_Styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.button1,
-        children: " HELLO WORLD, THIS IS LIVE TESTING "
+    className: _pages_Styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.body,
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("title", {
+        children: "Panther Crush Welcome"
       }, void 0, false, {
         fileName: _jsxFileName,
         lineNumber: 14,
-        columnNumber: 1
+        columnNumber: 5
       }, this)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 1
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("main", {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("p", {
+        className: _pages_Styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.title,
+        children: " HELLO WORLD, THIS IS LIVE TESTING "
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 8
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 5
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+      className: _pages_Styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.test,
+      children: " HEY "
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 5
     }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("footer", {
+      className: _pages_Styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.footer1,
       children: " CS 701 Final Project"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 1
+      lineNumber: 20,
+      columnNumber: 5
     }, this)]
   }, void 0, true, {
     fileName: _jsxFileName,
-    lineNumber: 11,
-    columnNumber: 5
+    lineNumber: 12,
+    columnNumber: 1
   }, this);
 }
 _c = Home;
@@ -120,4 +141,4 @@ $RefreshReg$(_c, "Home");
 /***/ })
 
 })
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiSG9tZSIsInN0eWxlcyIsImJ1dHRvbjEiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBRWUsU0FBU0EsSUFBVCxHQUFnQjtBQUkvQixzQkFDSTtBQUFBLDRCQUNKO0FBQUEsNkJBRUE7QUFBUSxpQkFBUyxFQUFHQyxvRUFBTSxDQUFDQyxPQUEzQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUZBO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFESSxlQU1KO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBTkk7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFVBREo7QUFXQztLQWZ1QkYsSSIsImZpbGUiOiJzdGF0aWMvd2VicGFjay9wYWdlcy9pbmRleC5hMmI2OGI1ZDJiYjNkNDI3Mzk3Ni5ob3QtdXBkYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcclxuaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XHJcbmltcG9ydCBzdHlsZXMgZnJvbSAnLi4vcGFnZXMvU3R5bGVzL0hvbWUubW9kdWxlLmNzcyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lKCkge1xyXG5cclxuXHJcblxyXG5yZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuPG1haW4+XHJcblxyXG48YnV0dG9uIGNsYXNzTmFtZT0ge3N0eWxlcy5idXR0b24xfT4gSEVMTE8gV09STEQsIFRISVMgSVMgTElWRSBURVNUSU5HIDwvYnV0dG9uPlxyXG48L21haW4+XHJcblxyXG48Zm9vdGVyPiBDUyA3MDEgRmluYWwgUHJvamVjdDwvZm9vdGVyPlxyXG48L2Rpdj5cclxuXHJcbik7XHJcbn0iXSwic291cmNlUm9vdCI6IiJ9
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiSG9tZSIsInN0eWxlcyIsImJvZHkiLCJ0aXRsZSIsInRlc3QiLCJmb290ZXIxIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUVlLFNBQVNBLElBQVQsR0FBZ0I7QUFJL0Isc0JBRUE7QUFBSyxhQUFTLEVBQUVDLG9FQUFNLENBQUNDLElBQXZCO0FBQUEsNEJBQ0EscUVBQUMsZ0RBQUQ7QUFBQSw2QkFDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURKO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFEQSxlQUlJO0FBQUEsNkJBQ0c7QUFBRyxpQkFBUyxFQUFHRCxvRUFBTSxDQUFDRSxLQUF0QjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURIO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFKSixlQU9JO0FBQUssZUFBUyxFQUFFRixvRUFBTSxDQUFDRyxJQUF2QjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQVBKLGVBUUk7QUFBUSxlQUFTLEVBQUVILG9FQUFNLENBQUNJLE9BQTFCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBUko7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFVBRkE7QUFjQztLQWxCdUJMLEkiLCJmaWxlIjoic3RhdGljL3dlYnBhY2svcGFnZXMvaW5kZXguMTA5OWM5NTA0N2ZkNDhkNzlkOTIuaG90LXVwZGF0ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XHJcbmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5pbXBvcnQgc3R5bGVzIGZyb20gJy4uL3BhZ2VzL1N0eWxlcy9Ib21lLm1vZHVsZS5jc3MnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcclxuXHJcblxyXG5cclxucmV0dXJuIChcclxuICAgXHJcbjxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuYm9keX0+XHJcbjxIZWFkPlxyXG4gICAgPHRpdGxlPlBhbnRoZXIgQ3J1c2ggV2VsY29tZTwvdGl0bGU+XHJcbiAgPC9IZWFkPlxyXG4gICAgPG1haW4+XHJcbiAgICAgICA8cCBjbGFzc05hbWU9IHtzdHlsZXMudGl0bGV9PiBIRUxMTyBXT1JMRCwgVEhJUyBJUyBMSVZFIFRFU1RJTkcgPC9wPiBcclxuICAgIDwvbWFpbj5cclxuICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMudGVzdH0+IEhFWSA8L2Rpdj5cclxuICAgIDxmb290ZXIgY2xhc3NOYW1lPXtzdHlsZXMuZm9vdGVyMX0+IENTIDcwMSBGaW5hbCBQcm9qZWN0PC9mb290ZXI+XHJcbjwvZGl2PlxyXG5cclxuKTtcclxufSJdLCJzb3VyY2VSb290IjoiIn0=
