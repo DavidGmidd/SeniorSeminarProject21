@@ -45,8 +45,7 @@ export default function CrushList() {
         </div>
            
         </main>
-        <footer className={styles.footer1}> CS 701 Final Project</footer>
     </div>
     
     );
-    }
+}
