@@ -1,6 +1,6 @@
 .body {
 
-    background-color: blue;
+    background-color: white;
     text-align: center;
     width: 100;
     height: 100%;
@@ -24,12 +24,57 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+.input{
+
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+
+.button {
+
+    margin: 20px 2px 5px 2px;
+    font-size: 16px;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+.button:hover {
+
+    background-color:rgba(37, 37, 129, 0.753); /* Green */
+    color: white;
+    cursor: pointer;
+  }
+
+.UserInfo{
+   
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+   
+}
+.crushInput{
+    
+    font-size: 18px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
 .footer1 {
 
     border-top: 2px solid black;
     padding-top: 8px;
     font-size: 24px;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -38,11 +83,5 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
-    margin-top: 12px;
+    margin-top: 50px;
 }
-.test {
-    float: left;
-    background-color: blueviolet;
-
-}
-
