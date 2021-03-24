@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import styles from '../pages/Styles/Home.module.css';
 import CrushList from '../pages/CrushList';
+//import middlebury_720 from '../images/middlebury_720.mp4';
 //import landscape from '../images/landscape.png'; // Tell webpack this JS file uses this image
 //console.log(landscape);
 //return <img src={landscape} alt="landscape" />;
@@ -26,6 +27,7 @@ export default function Home() {
       <title>Panther Crush Welcome</title>
     </Head>
     <main>
+
       <div className={styles.welcome} >
           <h2>Welcome to the Panther Crush</h2>
       </div>
@@ -58,6 +60,10 @@ return (
   {content}
   <footer className={styles.footer}> CS 701 Final Project</footer>
 </div>
+
+  //<video id="videoBG" autoplay muted loop>
+  //<source src={middlebury_720} type="video/mp4"></source>
+  //</video>
 
   // <div className={styles.body}>
   // <Head>
