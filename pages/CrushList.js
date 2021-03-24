@@ -12,9 +12,21 @@ export default function CrushList() {
     const [currentLastName, setLastName] = useState('');
     const [currentEmail, setEmail] = useState('');
 
+function saveUserInfo(){
+
+}
+
+function cancel(){
+
+}
+
+function submitCrushes(){
+
+}
+
     return (
        
-    <div className={styles.body}>
+    <div >
     <Head>
         <title>Panther Crush List</title>
       </Head>
@@ -25,8 +37,8 @@ export default function CrushList() {
             <input className= {styles.input}  onChange={e => { setName(e.target.value) }} value={currentName} type="text" aria-label="title" placeholder = "First Name" required />
             <input className= {styles.input} onChange={e => { setLastName(e.target.value) }} value={currentLastName} type="text" aria-label="title" placeholder = "Last Name" required />
             <input className= {styles.input}  onChange={e => { setEmail(e.target.value) }} value={currentEmail} type="text" aria-label="title" placeholder = "Email address" required />
-            <button className={styles.button} disabled={currentName === '' || currentLastName === '' || currentEmail === ''}> Save </button>
-            <button className={styles.button}/* onClick={() => { complete() }} */> Cancel </button>
+            <button className={styles.button} onClick={() => { saveUserInfo() }}disabled={currentName === '' || currentLastName === '' || currentEmail === ''}> Save </button>
+            <button className={styles.button} onClick={() => { cancel()}} > Cancel </button>
         </div>
         <div className={styles.crushList }>
             <h2 className= {styles.titleSection} type="button" class="collapsible">Your Crushes:</h2>  
@@ -40,7 +52,7 @@ export default function CrushList() {
             <input className= {styles.crushInput} /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email"/>
             <input className= {styles.crushInput}  /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email" />
             
-            <button className={styles.button} /*onClick={() => { makeArticle() }} disabled={currentTitle === ''} */> Submit Crush List </button>
+            <button className={styles.button} onClick={() => { submitCrushes() }} /*disabled={currentTitle === ''} */> Submit Crush List </button>
             <button className={styles.button}/* onClick={() => { complete() }} */> Cancel </button>
         </div>
            
