@@ -1,19 +1,13 @@
 import Head from 'next/head';
 import { useState } from 'react';
-import Link from 'next/link';
 import styles from '../pages/Styles/Home.module.css';
 import CrushList from '../pages/CrushList';
-//import landscape from '../images/landscape.png'; // Tell webpack this JS file uses this image
-//console.log(landscape);
-//return <img src={landscape} alt="landscape" />;
 
 export default function Home() {
 
   const [currentMode, setCurrentMode] = useState("Welcome");
 
   let content;
-
-
 
   if (currentMode === "CrushList") {
 
@@ -44,7 +38,7 @@ export default function Home() {
               <p> Privacy is important to us, so all of your personal information and the names you submit will be kept completely anonymous. Only if you match with your crush will your name be shared with them </p> 
               <p>  You will get notified by email on May 22nd if you match with any of your crushes. After that, you can take it from there </p> 
           </div>
-          <button className={styles.button} onclick={() => { setCurrentMode("CrushList") }}>Give me my crush</button>
+          <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>Give me my crush</button>
       </main> 
       </>)
   }
@@ -52,24 +46,12 @@ export default function Home() {
     content = (<>  </>);
   }
 
+
+
 return (
 
 <div className={styles.body}>
   {content}
   <footer className={styles.footer}> CS 701 Final Project</footer>
 </div>
-
-  // <div className={styles.body}>
-  // <Head>
-  //     <title>Panther Crush Welcome</title>
-  //   </Head>
-  //     <main>
-  //       <p className= {styles.title}> HELLO WORLD, THIS IS LIVE TESTING </p> 
-  //       <Button> HELLO BOOTSTRAP BUTTON</Button>
-        
-  //     </main>
-  //     <footer className={styles.footer1}> CS 701 Final Project</footer>
-  // </div>
-
-    );
-  }
+    ); }
