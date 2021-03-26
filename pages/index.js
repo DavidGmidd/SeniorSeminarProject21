@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 import styles from '../pages/Styles/Home.module.css';
 import CrushList from '../pages/CrushList';
+//import middlebury_720 from '../images/middlebury_720.mp4';
 
 export default function Home() {
 
@@ -56,3 +57,7 @@ return (
   <footer className={styles.footer}> CS 701 Final Project</footer>
 </div>
     ); }
+
+  //<video id="videoBG" autoplay muted loop>
+  //<source src={middlebury_720} type="video/mp4"></source>
+  //</video>
