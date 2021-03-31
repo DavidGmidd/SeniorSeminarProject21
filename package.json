@@ -46,7 +46,8 @@
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2",
     "react": "^17.0.1",
-    "ts-loader": "^8.0.18"
+    "ts-loader": "^8.0.18",
+    "video.js": "^7.11.4"
   },
   "husky": {
     "hooks": {

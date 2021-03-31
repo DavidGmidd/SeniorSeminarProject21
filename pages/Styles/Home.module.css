@@ -12,6 +12,15 @@
     }
 }
 
+.plyr__video-embed {
+    --plyr-control-icon-size: 50px;
+    position:fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+
+}
+
 .body {
 
     background-color: rgb(55, 55, 226);

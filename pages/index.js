@@ -18,6 +18,9 @@ export default function Home() {
     content = (
     <> 
     <Head>
+      <link rel="stylesheet" href="path/to/plyr.css" />
+      <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
+
       <title>Panther Crush Welcome</title>
     </Head>
     <main>
@@ -48,13 +51,21 @@ export default function Home() {
     content = (<>  </>);
   }
 
-
-
 return (
 
 <div className={styles.body}>
+  <div className="plyr__video-embed" id="player">
+    <iframe
+      src="https://player.vimeo.com/video/76979871?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
+      allowfullscreen
+      allowtransparency
+      allow="autoplay"
+    ></iframe>
+  </div>
+  
   {content}
   <footer className={styles.footer}> CS 701 Final Project</footer>
+
 </div>
     ); }
 
