@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useState } from 'react';
 import styles from '../pages/Styles/Home.module.css';
+//import player from '../pages/Styles/plyr.css';
 import CrushList from '../pages/CrushList';
 //import middlebury_720 from '../images/middlebury_720.mp4';
 
@@ -18,10 +19,9 @@ export default function Home() {
     content = (
     <> 
     <Head>
-      <link rel="stylesheet" href="path/to/plyr.css" />
-      <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
-
       <title>Panther Crush Welcome</title>
+  
+    
     </Head>
     <main>
 
@@ -42,33 +42,30 @@ export default function Home() {
               <p> If you are a senior (class of 2021 and 2021.5), you can anonymously submit names of up to seven senior "crushes" between May 16 to May 21 by 5:00 pm </p>
               <p> Privacy is important to us, so all of your personal information and the names you submit will be kept completely anonymous. Only if you match with your crush will your name be shared with them </p> 
               <p>  You will get notified by email on May 22nd if you match with any of your crushes. After that, you can take it from there </p> 
+              <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>Give me my crush</button>
           </div>
-          <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>Give me my crush</button>
+         
       </main> 
       </>)
   }
   else {
     content = (<>  </>);
   }
-
+  
 return (
 
-<div className={styles.body}>
-  <div className="plyr__video-embed" id="player">
-    <iframe
-      src="https://player.vimeo.com/video/76979871?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
-      allowfullscreen
-      allowtransparency
-      allow="autoplay"
-    ></iframe>
-  </div>
+<div className={styles.plyr} id="player" >
+{/* <link rel="stylesheet" href= "../pages/Styles/plyr.css" />  */}
+      <script src= "https://cdn.plyr.io/3.6.4/plyr.js"></script>
   
-  {content}
+    <iframe 
+      height="100%" width="100%"
+      src="https://player.vimeo.com/video/76979871?loop=1&controls=0&sidedock=0&autoplay=1"
+      frameborder="0"  > 
+      
+        {content}
+    </iframe>
   <footer className={styles.footer}> CS 701 Final Project</footer>
 
 </div>
     ); }
-
-  //<video id="videoBG" autoplay muted loop>
-  //<source src={middlebury_720} type="video/mp4"></source>
-  //</video>
