@@ -60,13 +60,15 @@ return (
 
   {/* Code we need for video
   loop=1&controls=0&sidedock=0&autoplay=1&background=1 */}
+  {content}
     <iframe 
-      height="100%" width="100%" opacity="0.5"
-      src="https://player.vimeo.com/video/76979871?background=1&controls=0"
-      frameborder="0"  > 
-        
+      height="100%" width="100%" 
+      src="https://player.vimeo.com/video/76979871?background=1&controls=0" 
+      frameBorder="0" 
+      allowTransparency > 
     </iframe>
-    {content}
+    
+   
   <footer className={styles.footer}> CS 701 Final Project</footer>
 
 </div>
