@@ -60,11 +60,13 @@ if (checkEmail.checked == true){
            
         <div className={styles.UserInfo }>
             <h2 className= {styles.titleSection}> Your Info:</h2>
+            <details>
             <input className= {styles.input} onChange={e => { setName(e.target.value) }} value={currentName} type="text" aria-label="title" placeholder = "First Name" required />
             <input className= {styles.input} onChange={e => { setLastName(e.target.value) }} value={currentLastName} type="text" aria-label="title" placeholder = "Last Name" required />
             <input className= {styles.input} onChange={e => { setEmail(e.target.value) }} value={currentEmail} type="text" aria-label="title" placeholder = "Email address" required />
             <button className={styles.button} onClick={() => { saveUserInfo() }}disabled={currentName === '' || currentLastName === '' || currentEmail === ''}> Save </button>
             <button className={styles.button} onClick={() => { cancel()}} > Cancel </button>
+            </details>
         </div>
         <div className={styles.crushList }>
             <h2 className= {styles.titleSection} type="button" class="collapsible">Your Crushes:</h2>  
