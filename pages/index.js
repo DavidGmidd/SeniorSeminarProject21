@@ -20,8 +20,7 @@ export default function Home() {
     <> 
     <Head>
       <title>Panther Crush Welcome</title>
-  
-    
+
     </Head>
     <main>
 
@@ -46,7 +45,7 @@ export default function Home() {
           </div>
          
       </main> 
-      </>)
+      </>) 
   }
   else {
     content = (<>  </>);
@@ -54,20 +53,21 @@ export default function Home() {
   
 return (
 
-<div className={styles.plyr} id="player" >
-{/* <link rel="stylesheet" href= "/path/to/plyr.css" />  */}
+  <div className={styles.plyr} id="player" >
+  {/* <link rel="stylesheet" href= "/path/to/plyr.css" /> */}
       <script src= "https://cdn.plyr.io/3.6.4/plyr.js"></script>
 
   {/* Code we need for video
-  loop=1&controls=0&sidedock=0&autoplay=1&background=1 */}
-    <iframe 
+  loop=1&controls=0&sidedock=0&autoplay=1&background=1   new mine: 533381740 chris's: 368849006 mine: 532302544  vimeo: 76979871*/}
+    <iframe
       height="100%" width="100%" opacity="0.5"
-      src="https://player.vimeo.com/video/76979871?background=1&controls=0"
-      frameborder="0"  > 
-        
+      src="https://player.vimeo.com/video/533381740?background=1&controls=0"
+      frameborder="0" >
     </iframe>
+    <p>testing words</p>
+
     {content}
   <footer className={styles.footer}> CS 701 Final Project</footer>
 
-</div>
-    ); }
+  </div>
+  ); }
