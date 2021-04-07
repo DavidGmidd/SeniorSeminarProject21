@@ -26,10 +26,10 @@ export default function Home() {
       <title>Panther Crush Welcome</title>
 
     </Head>
-    <main>
+    <main className= {styles.main}>
 
       <div className={styles.intro} >
-            <p>Graduation comes sooner than you think, so try to make the most of it while you can</p>
+            <p>Graduation comes sooner than you think, so try to make the most of it while you can!</p>
         </div>
         
         <div className={styles.overview} >
@@ -38,13 +38,16 @@ export default function Home() {
 
         <div className={styles.information} >
             <p>We're taking the long-lived tradition of Crush Lists and making it more accessible for seniors</p>
-            <p> If you are a senior (class of 2021 and 2021.5), you can anonymously submit names of up to seven senior "crushes" between May 16 to May 21 by 5:00 pm </p>
-            <p> Privacy is important to us, so all of your personal information and the names you submit will be kept completely anonymous. Only if you match with your crush will your name be shared with them </p> 
-            <p>  You will get notified by email on May 22nd if you match with any of your crushes. After that, you can take it from there </p> 
-            <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>Give me my crush</button>
+            <p>If you are a senior (class of 2021 and 2021.5), you can anonymously submit names of up to seven senior "crushes" between May 16 to May 21 by 5:00 pm </p>
+            <p>Privacy is important to us, so all of your personal information and the names you submit will be kept completely anonymous. Only if you match with your crush will your name be shared with them </p> 
+            <p>You will get notified by email on May 22nd if you match with any of your crushes. After that, you can take it from there </p> 
         </div>
-         
+        <div className={styles.buttonContainer}>
+        </div>
       </main> 
+      <footer className={styles.footer}> 
+  <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>Give me my crush</button>
+  </footer>
       </>) 
   }
   else {
@@ -65,7 +68,7 @@ return (
       frameBorder="0" >
     </iframe>
     {content}
-  <footer className={styles.footer}> CS 701 Final Project</footer>
+  
 
   </div>
   ); }
