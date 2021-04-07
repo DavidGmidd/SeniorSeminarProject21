@@ -66,9 +66,8 @@ return (
     <iframe
       height="100%" width="100%" opacity="0.5"
       src="https://player.vimeo.com/video/533381740?background=1&controls=0"
-      frameborder="0" >
+      frameBorder="0" >
     </iframe>
-    <p>testing words</p>
     {content}
   <footer className={styles.footer}> CS 701 Final Project</footer>
 
