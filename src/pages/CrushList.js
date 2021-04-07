@@ -1,9 +1,8 @@
 
 import Head from 'next/head';
 import { useState } from 'react';
-import Link from 'next/link';
 import styles from '../pages/Styles/Home.module.css';
-import Button from 'react-bootstrap/Button';
+import React from 'react'
 
 export default function CrushList() {
 
@@ -69,7 +68,7 @@ if (checkEmail.checked == true){
             </details>
         </div>
         <div className={styles.crushList }>
-            <h2 className= {styles.titleSection} type="button" class="collapsible">Your Crushes:</h2>  
+            <h2 className= {styles.titleSection} type="button">Your Crushes:</h2>  
             <input className= {styles.crushInput} /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email"/>
             <input className= {styles.crushInput} /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email"/>
             <input className= {styles.crushInput}  /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email" />
