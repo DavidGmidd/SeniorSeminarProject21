@@ -1,5 +1,9 @@
+/* eslint-disable react/no-unescaped-entities*/
+
+
 import Head from 'next/head';
 import { useState } from 'react';
+import React from 'react'
 import styles from '../pages/Styles/Home.module.css';
 //import player from '../pages/Styles/plyr.css';
 import CrushList from '../pages/CrushList';
