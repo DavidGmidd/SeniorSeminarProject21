@@ -24,30 +24,44 @@ export default function Home() {
     <> 
     <Head>
       <title>Panther Crush Welcome</title>
-
     </Head>
-    <main className= {styles.main}>
 
+    <main className= {styles.main}>
+      <div className={styles.plyr} id="player" >
+  {/* <link rel="stylesheet" href= "/path/to/plyr.css" /> */}
+      <script src= "https://cdn.plyr.io/3.6.4/plyr.js"></script>
+
+  {/* Code we need for video
+  loop=1&controls=0&sidedock=0&autoplay=1&background=1   new mine: 533381740 chris's: 368849006 mine: 532302544  vimeo: 76979871*/}
+        <iframe
+        height="100%" width="100%" opacity="0.5"
+        src="https://player.vimeo.com/video/533381740?background=1&controls=0"
+        frameBorder="0" >
+        </iframe>
       <div className={styles.intro} >
-            <p>Graduation comes sooner than you think, so try to make the most of it while you can!</p>
-        </div>
+         <p> Graduation is around the corner, and we want to help you make the most out of your last weeks at Midd! </p> 
+
+            {/* <p>Graduation comes sooner than you think, so try to make the most of it while you can!</p> */}
+      </div>
         
-        <div className={styles.overview} >
-            <h3>How it works:</h3>
+      <div className={styles.overview} >
+          <h3>How it works:</h3>
         </div>
 
         <div className={styles.information} >
-            <p>We're taking the long-lived tradition of Crush Lists and making it more accessible for seniors</p>
-            <p>If you are a senior (class of 2021 and 2021.5), you can anonymously submit names of up to seven senior "crushes" between May 16 to May 21 by 5:00 pm </p>
-            <p>Privacy is important to us, so all of your personal information and the names you submit will be kept completely anonymous. Only if you match with your crush will your name be shared with them </p> 
-            <p>You will get notified by email on May 22nd if you match with any of your crushes. After that, you can take it from there </p> 
+            <p>We're taking the long-lived tradition of Crush Lists and making it more accessible for seniors.</p>
+            <p>If you are a senior (class of 2021 and 2021.5), you can anonymously submit names of up to seven senior "crushes" between May 16 to May 21 by 5:00 pm. </p>
+            <p> {/*Privacy is important to us, so */}All of your personal information and the names you submit will be kept completely anonymous. Only if you and one of your crushes are in each other's list will your name be shared with them. </p> 
+            <p>You will get notified by email on May 22nd if you match with any of your crushes. After that, you can take it from there (we certainly hope you will get in touch with each other). </p> 
         </div>
         <div className={styles.buttonContainer}>
         </div>
-      </main> 
-      <footer className={styles.footer}> 
-  <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>Give me my crush</button>
-  </footer>
+        <footer className={styles.footer}> 
+          <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>My crushes!</button>
+        </footer>
+      </div>
+    </main> 
+
       </>) 
   }
   else {
@@ -55,20 +69,8 @@ export default function Home() {
   }
   
 return (
-
-  <div className={styles.plyr} id="player" >
-  {/* <link rel="stylesheet" href= "/path/to/plyr.css" /> */}
-      <script src= "https://cdn.plyr.io/3.6.4/plyr.js"></script>
-
-  {/* Code we need for video
-  loop=1&controls=0&sidedock=0&autoplay=1&background=1   new mine: 533381740 chris's: 368849006 mine: 532302544  vimeo: 76979871*/}
-    <iframe
-      height="100%" width="100%" opacity="0.5"
-      src="https://player.vimeo.com/video/533381740?background=1&controls=0"
-      frameBorder="0" >
-    </iframe>
-    {content}
-  
-
-  </div>
-  ); }
+    <> 
+      {content}
+    </>
+  );
+}
