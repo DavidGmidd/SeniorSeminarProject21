@@ -51,8 +51,8 @@ export default function Home() {
         <div className={styles.information} >
             <p>We're taking the long-lived tradition of Crush Lists and making it more accessible for seniors.</p>
             <p>If you are a senior (class of 2021 and 2021.5), you can anonymously submit names of up to seven senior "crushes" between May 16 to May 21 by 5:00 pm. </p>
-            <p> {/*Privacy is important to us, so */}All of your personal information and the names you submit will be kept completely anonymous. Only if you and one of your crushes are in each other's list will your name be shared with them. </p> 
-            <p>You will get notified by email on May 22nd if you match with any of your crushes. After that, you can take it from there (we certainly hope you will get in touch with each other). </p> 
+            <p> {/*Privacy is important to us, so */}All of your personal information and the names you submit will be kept completely anonymous. If you match with one of your crushes, only your name and contact information will be shared with them. </p> 
+            <p>You will get notified by email on May 22nd if you match with any of your crushes. After that, you can take it from there. </p> 
         </div>
         <div className={styles.buttonContainer}>
         </div>
