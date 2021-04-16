@@ -57,44 +57,11 @@ if (checkEmail.checked == true){
       </Head>
         <main className={styles.main}>
            
-        <div className={styles.UserInfo }>
-            <h2 className= {styles.titleSection}> Your Info:</h2>
-            <details>
-            <input className= {styles.input} onChange={e => { setName(e.target.value) }} value={currentName} type="text" aria-label="title" placeholder = "First Name" required />
-            <input className= {styles.input} onChange={e => { setLastName(e.target.value) }} value={currentLastName} type="text" aria-label="title" placeholder = "Last Name" required />
-            <input className= {styles.input} onChange={e => { setEmail(e.target.value) }} value={currentEmail} type="text" aria-label="title" placeholder = "Email address" required />
-            <button className={styles.button} onClick={() => { saveUserInfo() }}disabled={currentName === '' || currentLastName === '' || currentEmail === ''}> Save </button>
-            <button className={styles.button} onClick={() => { cancel()}} > Cancel </button>
-            </details>
-        </div>
-        <div className={styles.crushList }>
-            <h2 className= {styles.titleSection} type="button">Your Crushes:</h2>  
-            <input className= {styles.crushInput} /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email"/>
-            <input className= {styles.crushInput} /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email"/>
-            <input className= {styles.crushInput}  /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email" />
-            <input className= {styles.crushInput} /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email"/>
-            <input className= {styles.crushInput} /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email"/>
-            <input className= {styles.crushInput}  /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email" />
-            <input className= {styles.crushInput} /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email"/>
-            <input className= {styles.crushInput} /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email"/>
-            <input className= {styles.crushInput}  /* onChange={e => { setTitle(e.target.value) }} value={currentTitle}*/ type="text" aria-label="title" placeholder = "Crush Email" />
-            
-            <button className={styles.button} onClick={() => { submitCrushes() }} /*disabled={currentTitle === ''} */> Submit Crush List </button>
-            <button className={styles.button}/* onClick={() => { complete() }} */> Cancel </button>
-        </div>
-           <div className= {styles.Preference}>
-            <h2 className= {styles.titleSection}> Contact Preference:</h2>
-            
-            <label className= {styles.container}>Email
-            <input id="EmailPreferred"type="checkbox" onClick={() => {contactPreference()}}/>
-            <span className= {styles.checkmark}></span>
-            </label>
-            <label className= {styles.container}>Text:
-            <input id="TextPreferred" type="checkbox" onClick={() => {contactPreference()}}/>
-            <span className= {styles.checkmark}></span>
-            </label> 
-            <input id="PhoneNumber" type="tel" placeholder="Phone Number" className={styles.phoneinput} pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" onChange={e => { setPhoneNum(e.target.value) }} value={currentPhoneNum}/>
-
+        <div className={styles.plyr} id= "player">
+        <iframe src="https://player.vimeo.com/video/536975744?background=1&loop=0" 
+        width="100%" height="100%" 
+        frameborder="0" >
+        </iframe>
         </div>
         </main>
     </div>
