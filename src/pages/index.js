@@ -45,9 +45,13 @@ export default function Home() {
       
       </div>
 
+      <div className={styles.howitworks} >
+         <p>How it works:</p>
+      </div>
+
       <iframe
       height="100%" width="100%" opacity="0.5"
-      src="https://player.vimeo.com/video/538886370?background=1&controls=0"
+      src="https://player.vimeo.com/video/538941352?background=1&controls=0"
       frameBorder="0" >
       </iframe>
       
