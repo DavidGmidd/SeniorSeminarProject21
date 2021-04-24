@@ -5,21 +5,20 @@ import Head from 'next/head';
 import { useState } from 'react';
 import React from 'react'
 import styles from '../pages/Styles/Home.module.css';
-//import player from '../pages/Styles/plyr.css';
 import CrushList from '../pages/CrushList';
-//import middlebury_720 from '../images/middlebury_720.mp4';
+import Values from '../pages/Values';
+import FAQ from '../pages/FAQ';
 
-export default function Home() {
 
-  const [currentMode, setCurrentMode] = useState("Welcome");
+export default function Home(page) {
+
+  page = "Home"
+  const [currentMode, setCurrentMode] = useState(page);
 
   let content;
 
-  if (currentMode === "CrushList") {
+  if (currentMode === "Home") {
 
-    content = ( <CrushList/> )
-  } 
-  else if (currentMode === "Welcome") {
     content = (
     <> 
     <Head>
@@ -27,6 +26,15 @@ export default function Home() {
     </Head>
 
     <main className= {styles.main}>
+      <div className={styles.MenuContainer}>
+     
+        <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Home")}}>Home</button>
+        <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Values")}}>Our Values</button>
+        <button className={styles.buttonMenu} onClick={() => {setCurrentMode("FAQ")}}>FAQ</button>
+        {/* <button className={styles.buttonMenu}> Contact</button> */}
+    
+      </div>
+
       <div className={styles.plyr} id="player" >
   {/* <link rel="stylesheet" href= "/path/to/plyr.css" /> */}
       <script src= "https://cdn.plyr.io/3.6.4/plyr.js"></script>
@@ -65,9 +73,16 @@ export default function Home() {
 
       </>) 
   }
-  else {
-    content = (<>  </>);
-  }
+
+  else if (currentMode === "CrushList") {
+    content = ( <CrushList/> )
+  } 
+  else if (currentMode === "Values") {
+      content = ( <Values/> )
+  } else if (currentMode === "FAQ") {
+    content = ( <FAQ/> )
+  } 
+
   
 return (
     <> 

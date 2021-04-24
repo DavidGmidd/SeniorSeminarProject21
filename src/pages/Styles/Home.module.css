@@ -1,5 +1,41 @@
 
+.MenuContainer{
+    
+    text-align: center;
+    border: 1px solid;
+    background-color: rgb(36, 36, 173);
+    width:100%;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.buttonMenu {
 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: 22px;
+    padding: 12px 28px;
+    font-weight: bold;
+    border: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+ 
+  }
+  .buttonMenu:focus{
+
+      background-color: whitesmoke;
+      color: black;
+  }
+
+  .buttonMenu:hover{
+
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+
+  }
 .plyr {
     background-color: none transparent;
     align-items: center;
