@@ -52,7 +52,7 @@ export default function FAQ() {
     </div>
 
       <footer className={styles.footer}> 
-          <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>My Crushes</button>
+          <button className={styles.button} onClick={() => {setView("CrushList")}}>My Crushes</button>
         </footer>
       </>
     

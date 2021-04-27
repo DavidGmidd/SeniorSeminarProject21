@@ -1,6 +1,9 @@
 {
   "name": "senior-project",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.16.0"
+  },
   "private": true,
   "author": "David Gikoshvili,Thomas Tarantino",
   "scripts": {
@@ -32,7 +35,7 @@
     "@emotion/core": "^10.1.1",
     "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.0.4",
+    "@testing-library/react": "^11.2.6",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.3.0",
     "css-loader": "^5.2.0",
@@ -48,7 +51,7 @@
     "prettier": "^2.1.2",
     "react": "^17.0.1",
     "ts-loader": "^8.0.18",
-    "video.js": "^7.11.4"
+    "video.js": "^7.12.1"
   },
   "husky": {
     "hooks": {
