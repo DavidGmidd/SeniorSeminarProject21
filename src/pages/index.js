@@ -10,10 +10,24 @@ import Values from '../pages/Values';
 import FAQ from '../pages/FAQ';
 
 
-export default function Home(page) {
+export default function Home() {
 
-  page = "Home"
-  const [currentMode, setCurrentMode] = useState(page);
+ 
+  const [currentMode, setCurrentMode] = useState('Home');
+  
+  // const setMode = (param) => {
+   
+  //   if (param === undefined ) {
+  //     setCurrentMode("Home")
+  //     }
+  //   else if (param === 'CrushList') {
+  //     setCurrentMode('CrushList');
+  //   } else if (param === 'Values'){
+  //     setCurrentMode('Values');    
+  //   } else {
+  //     setCurrentMode("FAQ")
+  //   }
+  // };
 
   let content;
 
@@ -28,7 +42,7 @@ export default function Home(page) {
     <main className= {styles.main}>
       <div className={styles.MenuContainer}>
      
-        <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Home")}}>Home</button>
+        <button className={styles.buttonMenu} onClick={() => {setCurrentMode('Home')}}>Home</button>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Values")}}>Our Values</button>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("FAQ")}}>FAQ</button>
         {/* <button className={styles.buttonMenu}> Contact</button> */}
@@ -75,12 +89,13 @@ export default function Home(page) {
   }
 
   else if (currentMode === "CrushList") {
-    content = ( <CrushList/> )
+    content = ( <CrushList  /> )
   } 
   else if (currentMode === "Values") {
-      content = ( <Values/> )
+      content = ( <Values /> )
+
   } else if (currentMode === "FAQ") {
-    content = ( <FAQ/> )
+    content = ( <FAQ /> )
   } 
 
   

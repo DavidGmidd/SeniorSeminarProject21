@@ -17,9 +17,9 @@ export default function CrushList() {
         <main className={styles.main}>
         <div className={styles.MenuContainer}>
      
-     <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Home")}}>Home</button>
-     <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Values")}}>Our Values</button>
-     <button className={styles.buttonMenu} onClick={() => {setCurrentMode("FAQ")}}>FAQ</button>
+     <button className={styles.buttonMenu} onClick={() => {setMode()}}>Home</button>
+     <button className={styles.buttonMenu} onClick={() => {setMode("Values")}}>Our Values</button>
+     <button className={styles.buttonMenu} onClick={() => {setMode("FAQ")}}>FAQ</button>
      {/* <button className={styles.buttonMenu}> Contact</button> */}
  
    </div>
