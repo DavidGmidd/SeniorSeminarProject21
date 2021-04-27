@@ -33,9 +33,10 @@ export default function FAQ() {
       <h2> Who is eligible? </h2>
       <h4> Seniors in the class of 2021 and 2021.5. We will ask you to include your email when you submit your crushes to verify that you are a senior. </h4>
 
-      <h2> When is this? </h2>
+      <details> 
+        <summary> When is this? </summary>
       <h4> Seniors can fill out their virtual crush list between May 10 to May 17 by 5:00 pm. You will get notified if you match with any of your crushes on May 18. </h4>
-
+      </details>
 
       <h2> Who can see my crush list? </h2>
       <h4> No one can see the list you submit. Only if you match with your crush will your name and email be shared with them.</h4>

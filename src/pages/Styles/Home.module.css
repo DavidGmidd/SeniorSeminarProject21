@@ -10,7 +10,9 @@
 }
 .buttonMenu {
 
-    margin: 0;
+    margin-bottom: 3px; 
+    margin-top: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
     overflow: hidden;
     color: whitesmoke;
@@ -58,7 +60,7 @@
   margin-bottom: 35px;
   margin-top: 50px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
 
@@ -109,13 +111,15 @@
 
     background-color: white;
     color: black;
-    margin: 5px 5px 5px 2px;
+    margin: 3px 3px 3px 1px;
     position: sticky;
     font-size: 22px;
     padding: 12px 28px;
     font-weight: bold;
     border: 3px solid black;
     border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     
 }
 .button:hover {
@@ -186,5 +190,8 @@
 }
 
 .faqs {
-    font-weight:normal
+    font-size: 20px;
+    text-align:  center;
+    font-weight:normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
