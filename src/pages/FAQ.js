@@ -45,7 +45,7 @@ export default function FAQ() {
       <h4> Click on <b>My Crushes</b> at the bottom of the website to fill out your list. The form will ask you to fill out the email addresses of your crushes. </h4>
       
       <h2> How do I find my crush's email? </h2>
-      <h4> There are several ways you can find your crush's email. You can search their name in go/directory or type their name into Outlook until their email appears.  </h4>
+      <h4> There are several ways you can find your crush's email. You can search their tname in the directory,<a href= "https://directory.middlebury.edu/">found here</a>, or start typing their name into Outlook until their email appears.  </h4>
 
       <h2> What happens if I match with one of my crushes? </h2>
       <h4> You will get notified by email on May 18. The email will include their name and email address for you to reach out to them, if you choose to do so.</h4>    

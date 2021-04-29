@@ -76,9 +76,6 @@ export default function Home() {
       src="https://player.vimeo.com/video/538941352?background=1&controls=0"
       frameBorder="0" >
       </iframe>
-      
-      <div className={styles.buttonContainer}>
-        </div>
         <footer className={styles.footer}> 
           <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>My Crushes</button>
         </footer>
