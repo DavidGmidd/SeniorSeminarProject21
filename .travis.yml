@@ -1,4 +1,4 @@
-npm install --save-dev jest@25.2.2 supertestlanguage: node_js
+language: node_js
 node_js:
   - "lts/erbium"
 before_script:
