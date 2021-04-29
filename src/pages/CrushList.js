@@ -1,7 +1,7 @@
 
 import Head from 'next/head';
 import { useState } from 'react';
-import styles from '../pages/Styles/Home.module.css';
+import styles from '../Styles/Home.module.css';
 import React from 'react'
 import Home from  '../pages/index';
 import FAQ from '../pages/FAQ';

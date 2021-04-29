@@ -4,7 +4,7 @@
 import Head from 'next/head';
 import { useState } from 'react';
 import React from 'react'
-import styles from '../pages/Styles/Home.module.css';
+import styles from '../Styles/Home.module.css';
 import CrushList from '../pages/CrushList';
 import Values from '../pages/Values';
 import FAQ from '../pages/FAQ';
@@ -15,20 +15,6 @@ export default function Home() {
  
   const [currentMode, setCurrentMode] = useState('Home');
   
-  // const setMode = (param) => {
-   
-  //   if (param === undefined ) {
-  //     setCurrentMode("Home")
-  //     }
-  //   else if (param === 'CrushList') {
-  //     setCurrentMode('CrushList');
-  //   } else if (param === 'Values'){
-  //     setCurrentMode('Values');    
-  //   } else {
-  //     setCurrentMode("FAQ")
-  //   }
-  // };
-
   let content;
 
   if (currentMode === "Home") {
@@ -45,16 +31,12 @@ export default function Home() {
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode('Home')}}>Home</button>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Values")}}>Our Values</button>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("FAQ")}}>FAQ</button>
-        {/* <button className={styles.buttonMenu}> Contact</button> */}
-    
       </div>
 
       <div className={styles.plyr} id="player" >
   {/* <link rel="stylesheet" href= "/path/to/plyr.css" /> */}
       <script src= "https://cdn.plyr.io/3.6.4/plyr.js"></script>
 
-  {/* Code we need for video
-  loop=1&controls=0&sidedock=0&autoplay=1&background=1   new mine: 533381740 chris's: 368849006 mine: 532302544  vimeo: 76979871*/}
         <iframe
         height="100%" width="100%" opacity="0.5"
         src="https://player.vimeo.com/video/538885546?background=1&controls=0"
