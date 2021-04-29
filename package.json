@@ -75,7 +75,7 @@
     ]
   },
   "description": "This is a repository for the senior project during Spring 2021",
-  "main": ".eslintrc.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidGmidd/SeniorSeminarProject21.git"
