@@ -30,7 +30,7 @@ export default function Values() {
      
       <button className={styles.buttonMenu} onClick={() => {setView("Home")}}>Home</button>
       <button className={styles.buttonMenu} onClick={() => {setView("Values")}}>Our Values</button>
-      <button className={styles.buttonMenu} onClick={() => {setView("FAQ")}}>FAQ</button>
+      <button className={styles.buttonMenu} onClick={() => {setView("FAQ")}}>FAQs</button>
     </div>
 
     <div className={styles.values} >

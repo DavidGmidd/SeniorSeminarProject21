@@ -30,7 +30,7 @@ export default function Home() {
      
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode('Home')}}>Home</button>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Values")}}>Our Values</button>
-        <button className={styles.buttonMenu} onClick={() => {setCurrentMode("FAQ")}}>FAQ</button>
+        <button className={styles.buttonMenu} onClick={() => {setCurrentMode("FAQ")}}>FAQs</button>
       </div>
 
       <div className={styles.plyr} id="player" >

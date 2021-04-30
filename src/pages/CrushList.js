@@ -35,7 +35,7 @@ export default function CrushList() {
      
      <button className={styles.buttonMenu} onClick={() => {setView("Home")}}>Home</button>
      <button className={styles.buttonMenu} onClick={() => {setView("Values")}}>Our Values</button>
-     <button className={styles.buttonMenu} onClick={() => {setView("FAQ")}}>FAQ</button>
+     <button className={styles.buttonMenu} onClick={() => {setView("FAQ")}}>FAQs</button>
      {/* <button className={styles.buttonMenu}> Contact</button> */}
  
    </div>
