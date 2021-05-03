@@ -43,9 +43,7 @@ export default function Home() {
         frameBorder="0" >
         </iframe>
       <div className={styles.intro} >
-         <p> Graduation is around the corner, and we want to help you make the most out of your last weeks at Middlebury </p> 
-
-          {/* <p>Graduation comes sooner than you think, so try to make the most of it while you can!</p> */}
+         <p> Graduation is around the corner, and we want to help you make the most out of your last weeks at Middlebury! </p> 
       
       </div>
 
@@ -60,7 +58,7 @@ export default function Home() {
       </iframe>
 
       <div className={styles.faqs} > 
-      <h2> FAQs</h2>
+      <h2 className={styles.faqsTitle}> FAQs </h2>
 
       <details> 
         <summary> Who is eligible? </summary>
