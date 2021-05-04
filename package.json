@@ -7,9 +7,9 @@
   "private": true,
   "author": "David Gikoshvili,Thomas Tarantino",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "start": "node index.js",
+    "start": "next start -p $PORT",
     "test": "jest",
     "lint": "eslint src"
   },
