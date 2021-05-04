@@ -62,7 +62,7 @@ export default function Home() {
 
       <details> 
         <summary> Who is eligible? </summary>
-      <h4> Seniors in the class of 2021 and 2021.5. We will ask you to include your email when you submit your crushes to verify that you are a senior. </h4>
+      <h4> All seniors in the class of 2021 and 2021.5 can submit a virtual crush list, even if you are off-campus or remote. We will ask you to include your email when you submit your crushes to verify that you are a senior. </h4>
       </details>
 
       <details> 
