@@ -5,7 +5,7 @@
     "node": "12.16.0"
   },
   "private": true,
-  "author": "David Gikoshvili,Thomas Tarantino",
+  "author": "David Gikoshvili, Thomas Tarantino",
   "scripts": {
     "dev": "next",
     "build": "next build",
