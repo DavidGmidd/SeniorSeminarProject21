@@ -8,6 +8,8 @@ import CrushList from '../pages/CrushList'
 
 export default function FAQ() {
 
+
+
   const [currentView, setView] = useState();
 
   let content;
