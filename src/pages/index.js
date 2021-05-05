@@ -8,6 +8,7 @@ import styles from '../Styles/Home.module.css';
 import CrushList from '../pages/CrushList';
 import Values from '../pages/Values';
 import FAQ from '../pages/FAQ';
+//import instructions from '../../images/panther_crush_how_it_works.png'
 
 
 export default function Home() {
@@ -34,29 +35,28 @@ export default function Home() {
       </div>
 
       <div className={styles.plyr} id="player" >
-  {/* <link rel="stylesheet" href= "/path/to/plyr.css" /> */}
       <script src= "https://cdn.plyr.io/3.6.4/plyr.js"></script>
 
         <iframe
         height="100%" width="100%" opacity="0.5"
-        src="https://player.vimeo.com/video/538885546?background=1&controls=0"
+        src="https://player.vimeo.com/video/545681677?background=1&controls=0"
         frameBorder="0" >
         </iframe>
       <div className={styles.intro} >
          <p> Graduation is around the corner, and we want to help you make the most out of your last weeks at Middlebury! </p> 
       
-      </div>
+      
 
-      <div className={styles.howitworks} >
+    <div className={styles.howitworks} > 
          <p>How it works:</p>
+      </div>
       </div>
 
       <iframe
       height="100%" width="100%" opacity="0.5"
-      src="https://player.vimeo.com/video/538941352?background=1&controls=0"
+      src="https://player.vimeo.com/video/545681544?background=1&controls=0"
       frameBorder="0" >
       </iframe>
-
       <div className={styles.faqs} > 
       <h2 className={styles.faqsTitle}> FAQs </h2>
 
@@ -82,7 +82,7 @@ export default function Home() {
 
       <details> 
         <summary> How do I find my crush&apos;s email? </summary>
-      <h4> There are several ways you can find your crush&apos;s email. You can search their name in the directory, <a href= "https://directory.middlebury.edu/">found here</a>, or start typing their name into Outlook until their email appears.  </h4>
+      <h4> There are several ways you can find your crush&apos;s email. You can search their name in the directory, <a href= "https://directory.middlebury.edu/" target="_blank">found here</a>, or start typing their name into Outlook until their email appears.  </h4>
       </details>
 
       <details> 

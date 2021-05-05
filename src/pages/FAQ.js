@@ -52,7 +52,7 @@ export default function FAQ() {
 
       <details> 
         <summary> How do I find my crush&apos;s email? </summary>
-      <h4> There are several ways you can find your crush&apos;s email. You can search their name in the directory, <a href= "https://directory.middlebury.edu/">found here</a>, or start typing their name into Outlook until their email appears.  </h4>
+      <h4> There are several ways you can find your crush&apos;s email. You can search their name in the directory, <a href= "https://directory.middlebury.edu/" target="_blank">found here</a>, or start typing their name into Outlook until their email appears.  </h4>
       </details>
 
       <details> 
