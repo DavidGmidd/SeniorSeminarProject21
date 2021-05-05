@@ -54,10 +54,10 @@ export default function Home() {
 
       <iframe
       height="100%" width="100%" opacity="0.5"
-      src="https://player.vimeo.com/video/545681544?background=1&controls=0"
+      src="https://player.vimeo.com/video/545712031?background=1&controls=0"
       frameBorder="0" >
       </iframe>
-      <div className={styles.faqs} > 
+      <div className={styles.faqsHome} > 
       <h2 className={styles.faqsTitle}> FAQs </h2>
 
       <details> 

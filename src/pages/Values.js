@@ -1,6 +1,7 @@
 
 import styles from '../Styles/Home.module.css';
 import React from 'react'
+import Head from 'next/head';
 import { useState } from 'react';
 import Home from '../pages/index';
 import FAQ from '../pages/FAQ';
@@ -26,6 +27,9 @@ export default function Values() {
   } else {
     content = ( 
       <> 
+       <Head>
+      <title>Panther Crush Values</title>
+    </Head>
     <div className={styles.MenuContainer}>
      
       <button className={styles.buttonMenu} onClick={() => {setView("Home")}}>Home</button>

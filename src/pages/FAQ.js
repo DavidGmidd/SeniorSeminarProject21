@@ -1,5 +1,6 @@
 import styles from '../Styles/Home.module.css';
 import React from 'react'
+import Head from 'next/head';
 import { useState } from 'react';
 import Home from '../pages/index';
 import Values from '../pages/Values';
@@ -22,6 +23,9 @@ export default function FAQ() {
   } else {
     content = ( 
       <> 
+       <Head>
+      <title>Panther Crush FAQs</title>
+    </Head>
     <div className={styles.MenuContainer}>
      
       <button className={styles.buttonMenu} onClick={() => {setView("Home")}}>Home</button>
@@ -52,7 +56,7 @@ export default function FAQ() {
 
       <details> 
         <summary> How do I find my crush&apos;s email? </summary>
-      <h4> There are several ways you can find your crush&apos;s email. You can search their name in the directory, <a href= "https://directory.middlebury.edu/" target="_blank" rel="noreferrer">found here</a>, or start typing their name into Outlook until their email appears.  </h4>
+      <h4> There are several ways you can find your crush&apos;s email. You can search their name in the directory, <a className= {styles.linkDirectory} href= "https://directory.middlebury.edu/" target="_blank" rel="noreferrer">found here</a>, or start typing their name into Outlook until their email appears.  </h4>
       </details>
 
       <details> 
@@ -62,7 +66,7 @@ export default function FAQ() {
 
     </div>
 
-      <footer className={styles.footer}> 
+      <footer className={styles.footerFAQ}> 
           <button className={styles.button} onClick={() => {setView("CrushList")}}>My Crushes</button>
         </footer>
       </>

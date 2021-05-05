@@ -142,12 +142,9 @@
 .linkDirectory {
     color: lightskyblue;
     text-decoration: underline;
-
-
-
 }
 
-.faqs {
+.faqsHome {
 
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -158,17 +155,22 @@
   width:70%;
   font-size: 22px;
   color: whitesmoke;
-  padding: 0px 70px;
+  padding: 0px 70px 40px 20px;
   margin-bottom: 55px;
   margin-top: 50px;
   text-align: left;
   font-weight: bold;
 }
+.faqs {
 
-.details {
-    padding: 20px 20px 20px 20px;
-}
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 255px;
+  }
   
 .footer {
 
@@ -186,4 +188,38 @@
     margin-bottom: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.footerFAQ {
+
+    /* background-color: rgb(36, 36, 173);
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    font-size: 24px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    border-top: 2px solid rgb(36, 36, 173);
+    border-bottom: 2px solid rgb(36, 36, 173);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+
+    background-color: rgb(36, 36, 173);
+    position: sticky;
+    width: 100%;
+    height: fit-content;
+    font-size: 24px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    border-top: 2px solid rgb(36, 36, 173);
+    border-bottom: 2px solid rgb(36, 36, 173);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
