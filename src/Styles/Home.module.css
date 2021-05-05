@@ -117,10 +117,10 @@
 
 .button:hover {
 
-    background-color:black;
-    color: white;
+    background-color:lightskyblue;
+    color: black;
     font-weight: bold;
-    border: 2px solid white;
+    border: 3px solid black;
     cursor: pointer;
 }
 
@@ -137,6 +137,14 @@
 
 .faqsTitle{
     text-align: center;   
+}
+
+.linkDirectory {
+    color: lightskyblue;
+    text-decoration: underline;
+
+
+
 }
 
 .faqs {
