@@ -8,13 +8,14 @@ import styles from '../Styles/Home.module.css';
 import CrushList from '../pages/CrushList';
 import Values from '../pages/Values';
 import FAQ from '../pages/FAQ';
+import Welcome from '../pages/Welcome';
 //import instructions from '../../images/panther_crush_how_it_works.png'
 
 
 export default function Home() {
+  
 
- 
-  const [currentMode, setCurrentMode] = useState('Home');
+  const [currentMode, setCurrentMode] = useState('Welcome');
   
   let content;
 
@@ -106,9 +107,12 @@ export default function Home() {
   } 
   else if (currentMode === "Values") {
       content = ( <Values /> )
-
-  } else if (currentMode === "FAQ") {
+  } 
+  else if (currentMode === "FAQ") {
     content = ( <FAQ /> )
+  } 
+  else  {
+    content = ( <Welcome /> ) 
   } 
 
   
