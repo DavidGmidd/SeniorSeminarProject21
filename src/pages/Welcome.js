@@ -7,10 +7,6 @@ export default function Welcome() {
 
     let content;
   
-    if(currentView === 'Welcome') {
-      content = ( <Welcome/>)
-  
-    } else {
       content = ( 
         <> 
          <Head>
@@ -28,7 +24,6 @@ export default function Welcome() {
       </div>
     </>
     )
-    }
     return (
         <> 
           {content}
