@@ -15,7 +15,7 @@ import Welcome from '../pages/Welcome';
 export default function Home() {
   
 
-  const [currentMode, setCurrentMode] = useState('Welcome');
+  const [currentMode, setCurrentMode] = useState('Home');
   
   let content;
 
@@ -43,14 +43,12 @@ export default function Home() {
         src="https://player.vimeo.com/video/545681677?background=1&controls=0"
         frameBorder="0" >
         </iframe>
+
       <div className={styles.intro} >
          <p> Graduation is around the corner, and we want to help you make the most out of your last weeks at Middlebury! </p> 
-      
-      
-
-    <div className={styles.howitworks} > 
-         <p>How it works:</p>
-      </div>
+        <div className={styles.howitworks} > 
+            <p>How it works:</p>
+        </div>
       </div>
 
       {/* <iframe
@@ -58,10 +56,12 @@ export default function Home() {
       src="https://player.vimeo.com/video/545712031?background=1&controls=0"
       frameBorder="0" >
       </iframe> */}
+      <div className={styles.instructionsContainer}> 
       <img src="images/final_how_it_works.png" className={styles.instructions}/>
+      </div>
+
       <div className={styles.faqsHome} > 
       <h2 className={styles.faqsTitle}> FAQs </h2>
-
       <details> 
         <summary> Who is eligible? </summary>
       <h4> All seniors in the class of 2021 and 2021.5 can submit a virtual crush list, even if you are off-campus or remote. We will ask you to include your email when you submit your crushes to verify that you are a senior. </h4>
@@ -91,9 +91,7 @@ export default function Home() {
         <summary> What happens if I match with one of my crushes? </summary>
       <h4> You will get notified by email on May 18. The email will include their name and email address for you to reach out to them, if you choose to do so.</h4>    
       </details>
-
     </div>
-
         <footer className={styles.footer}> 
           <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>My Crushes</button>
         </footer>

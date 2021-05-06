@@ -73,11 +73,18 @@
 }
 .instructions {
 
-    width:1300px;
-    height:800px;
+    margin: 0 auto;
+    width:95%;
+    height:100%;
+}
+.instructionsContainer{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .main {
+
     text-align: center;
     align-items: center;
 }
