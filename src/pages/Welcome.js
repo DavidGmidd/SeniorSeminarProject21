@@ -1,12 +1,9 @@
 import styles from '../Styles/Home.module.css';
 import React from 'react'
-import Home from '../pages/index';
 import Head from 'next/head';
-import { useState } from 'react';
 
 export default function Welcome() {
 
-    const [currentView, setView] = useState();
 
     let content;
   
