@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities*/
 
-   /*"start": "next start -p $PORT", */
+  
 import Head from 'next/head';
 import { useState } from 'react';
 import React from 'react'
@@ -9,7 +9,7 @@ import CrushList from '../pages/CrushList';
 import Values from '../pages/Values';
 import FAQ from '../pages/FAQ';
 import Welcome from '../pages/Welcome';
-//import instructions from '../../images/panther_crush_how_it_works.png'
+
 
 
 export default function Home() {
@@ -53,11 +53,12 @@ export default function Home() {
       </div>
       </div>
 
-      <iframe
+      {/* <iframe
       height="100%" width="100%" opacity="0.5"
       src="https://player.vimeo.com/video/545712031?background=1&controls=0"
       frameBorder="0" >
-      </iframe>
+      </iframe> */}
+      <img src="images/final_how_it_works.png" className={styles.instructions}/>
       <div className={styles.faqsHome} > 
       <h2 className={styles.faqsTitle}> FAQs </h2>
 
