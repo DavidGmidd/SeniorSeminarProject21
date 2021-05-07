@@ -35,8 +35,13 @@ export default function Home() {
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("FAQ")}}>FAQs</button>
       </div>
 
+   
       <div className={styles.plyr} id="player" >
-      <script src= "https://cdn.plyr.io/3.6.4/plyr.js"></script>
+
+      {/* <video width="400px" height="300px" controls>
+  <source src="images/middlebury_720.mp4" type="video/mp4"/>
+        </video> */}
+        
 
         <iframe
         height="100%" width="100%" opacity="0.5"
