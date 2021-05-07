@@ -15,7 +15,7 @@ import Welcome from '../pages/Welcome';
 export default function Home() {
   
 
-  const [currentMode, setCurrentMode] = useState('Welcome');
+  const [currentMode, setCurrentMode] = useState('Home');
   
   let content;
 
@@ -29,7 +29,9 @@ export default function Home() {
 
     <main className= {styles.main}>
       <div className={styles.MenuContainer}>
-        <img src="images/Logo5.PNG" className={styles.Logo}/>
+      
+      <img src="images/Logo5.PNG" className={styles.Logo}/>
+    
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode('Home')}}>Home</button>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Values")}}>Our Values</button>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("FAQ")}}>FAQs</button>

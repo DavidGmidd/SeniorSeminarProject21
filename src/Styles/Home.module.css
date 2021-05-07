@@ -2,22 +2,24 @@
 .MenuContainer{
     
     text-align: center;
-    align-items: center;
     border: 1px solid;
     background-color: rgb(36, 36, 173);
     width:100%;
     font-size: 28px;
     margin-bottom: 25px;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
 }
+
 .Logo{
 
     float: left;
     height: 12%;
     width: 12%;
-    margin-top: 5px;
-    margin-left: 10px;
+    margin-top: 3px;
+    margin-left: 6px;
     margin-bottom: 3px;
+
+
 }
 
 .intro {
@@ -42,17 +44,16 @@
     margin-bottom: 0px; 
     margin-top: 2px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 0;
     overflow: hidden;
     color: whitesmoke;
     background-color: transparent;
     font-size: 22px;
     padding: 12px 28px;
     font-weight: bold;
-    align-items: center;
     border: transparent;
     border-bottom: transparent;
     border-top: transparent;
+    
  
   }
   .buttonMenu:focus{
