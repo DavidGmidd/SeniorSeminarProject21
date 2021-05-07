@@ -15,7 +15,7 @@ import Welcome from '../pages/Welcome';
 export default function Home() {
   
 
-  const [currentMode, setCurrentMode] = useState('Welcome');
+  const [currentMode, setCurrentMode] = useState('Home');
   
   let content;
 
@@ -100,7 +100,7 @@ export default function Home() {
       </details>
     </div>
         <footer className={styles.footer}> 
-          <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>My Crushes</button>
+          <button className={styles.button} onClick={() => {setCurrentMode("CrushList")}}>Crush List</button>
         </footer>
       </div>
     </main> 
