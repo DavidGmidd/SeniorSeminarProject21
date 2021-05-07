@@ -38,7 +38,7 @@ export default function CrushList() {
         <button className={styles.buttonMenu} onClick={() => {setView("FAQ")}}>FAQs</button> 
       </div>
       <div className={styles.DirectoryInCrushlst}>
-    <h3> Find your crush's email <a className= {styles.linkDirectory} href= "https://directory.middlebury.edu/" target="_blank" rel="noreferrer">here</a>.</h3>
+    <h3> Find your crush&apos;s email <a className= {styles.linkDirectory} href= "https://directory.middlebury.edu/" target="_blank" rel="noreferrer">here</a>.</h3>
     </div>
     </div>
        <div className={styles.plyr} id= "player">
