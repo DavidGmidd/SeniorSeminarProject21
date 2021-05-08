@@ -42,7 +42,7 @@ export default function CrushList() {
     </div>
     </div>
        <div className={styles.plyr} id= "player">
-        <iframe src="https://player.vimeo.com/video/536975744?background=1&loop=0" 
+        <iframe src="https://player.vimeo.com/video/546613564?background=1&loop=0" 
         width="100%" height="100%" 
         frameBorder="0" >
         </iframe>
