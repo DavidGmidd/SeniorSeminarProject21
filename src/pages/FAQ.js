@@ -29,7 +29,7 @@ export default function FAQ() {
       <title>Panther Crush FAQs</title>
     </Head>
     <div className={styles.MenuContainer}>
-      <img src="images/Logo4.PNG" className={styles.Logo}/>
+      <img src="images/Logo5.PNG" className={styles.Logo}/>
       <button className={styles.buttonMenu} onClick={() => {setView("Home")}}>Home</button>
       <button className={styles.buttonMenu} onClick={() => {setView("Values")}}>Our Values</button>
       <button className={styles.buttonMenu} onClick={() => {setView("FAQ")}}>FAQs</button>
