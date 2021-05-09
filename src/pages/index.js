@@ -15,7 +15,7 @@ import Welcome from '../pages/Welcome';
 export default function Home() {
   
 
-  const [currentMode, setCurrentMode] = useState('Home');
+  const [currentMode, setCurrentMode] = useState('Welcome');
   
   let content;
 
