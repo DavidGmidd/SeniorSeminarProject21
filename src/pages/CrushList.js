@@ -33,9 +33,11 @@ export default function CrushList() {
    
       <div className={styles.MenuContainer}>
         <img src="images/Logo5.png" className={styles.Logo}/>
+        <div className={styles.MenuButtonsOnly}>
         <button className={styles.buttonMenu} onClick={() => {setView("Home")}}>Home</button>
         <button className={styles.buttonMenu} onClick={() => {setView("Values")}}>Our Values</button>
         <button className={styles.buttonMenu} onClick={() => {setView("FAQ")}}>FAQs</button> 
+        </div>
       </div>
       <div className={styles.DirectoryInCrushlst}>
     <h3> Find your crush&apos;s email <a className= {styles.linkDirectory} href= "https://directory.middlebury.edu/" target="_blank" rel="noreferrer">here</a></h3>

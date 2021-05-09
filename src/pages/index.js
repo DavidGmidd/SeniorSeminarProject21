@@ -32,9 +32,11 @@ export default function Home() {
       
       <img src="images/Logo5.png" className={styles.Logo}/>
     
+      <div className={styles.MenuButtonsOnly}>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode('Home')}}>Home</button>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("Values")}}>Our Values</button>
         <button className={styles.buttonMenu} onClick={() => {setCurrentMode("FAQ")}}>FAQs</button>
+        </div>
       </div>
 
    
