@@ -68,12 +68,28 @@
     color: black;
     cursor: pointer;
   }
+.Form {
+    float: right;
+    padding-left: 25px;
+    margin-left: 45px;
+    width: 100%;
+    height: 100%;
+    position:absolute;
 
+}
+.BluePanther{
+    
+    width: 30%;
+    height: 35%;
+    padding-right: 0px;
+    margin-right: 0px;
+    float: left;
+}
 .plyr {
     background-color: none transparent;
     align-items: center;
     position:absolute;
-    width: 100%; 
+    width: 100%;
     height: 100%; 
     z-index: -1;   
 }
