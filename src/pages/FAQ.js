@@ -43,7 +43,7 @@ export default function FAQ() {
 
       <details> 
         <summary> <b> When is this? </b>  </summary>
-      <p> Seniors can fill out their virtual crush list between May 10 to May 17 by 5:00 pm. You will get notified if you match with any of your crushes on May 18. </p>
+      <p> Seniors can fill out their virtual crush list between May 10 and May 17 by 5:00 pm. You will get notified if you match with any of your crushes on May 18. </p>
       </details>
 
       <details> 
@@ -53,7 +53,7 @@ export default function FAQ() {
 
       <details> 
         <summary>  <b> How do I submit my crushes? </b> </summary>
-      <p> Click on <i>Crush List</i> at the bottom of the website to fill out your list. The form will ask you to include the email addresses of your crushes. </p>
+      <p> Click on <i>Crush List</i> at the bottom of the page to fill out your list. The form will ask you to include the email addresses of your crushes. </p>
       </details>
 
       <details> 
