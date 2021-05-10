@@ -43,7 +43,7 @@ export default function CrushList() {
     <h3> Find your crush&apos;s email <a className= {styles.linkDirectory} href= "https://directory.middlebury.edu/" target="_blank" rel="noreferrer">here</a></h3>
     </div>
     </div>
-      <div>  <img src="images/blue-panther.png" className={styles.BluePanther}/></div>
+      <div>  <img src="images/blue_panther-3.png" className={styles.BluePanther}/></div>
        <div className={styles.Form}>
      
         <iframe src="https://player.vimeo.com/video/546613564?background=1&loop=0" 
