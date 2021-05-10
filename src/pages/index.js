@@ -15,7 +15,7 @@ import Welcome from '../pages/Welcome';
 export default function Home() {
   
 
-  const [currentMode, setCurrentMode] = useState('Welcome');
+  const [currentMode, setCurrentMode] = useState('Home');
   
   let content;
 
@@ -93,7 +93,7 @@ export default function Home() {
 
       <details> 
         <summary> <b> How do I find my crush&apos;s email? </b> </summary>
-      <p> There are several ways you can find your crush&apos;s email. You can search their name in the directory, <a className= {styles.linkDirectory} href= "https://directory.middlebury.edu/" target="_blank" rel="noreferrer">found here</a>, or start typing their name into Outlook until their email appears.  </p>
+      <p> You can search their name in the directory, <a className= {styles.linkDirectory} href= "https://directory.middlebury.edu/" target="_blank" rel="noreferrer">found here</a>, or start typing their name into Outlook until their email appears.  </p>
       </details>
 
       <details> 

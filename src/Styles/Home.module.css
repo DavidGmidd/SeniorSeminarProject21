@@ -74,7 +74,7 @@
   }
 .Form {
     float: right;
-    padding-left: 25px;
+    padding-left: 100px;
     margin-left: 35px;
     width: 100%;
     height: 100%;
@@ -82,13 +82,14 @@
 
 }
 .BluePanther{
-    margin-top: 150px;
-    width: 30%;
-    height: 35%;
+    margin-top: 195px;
     margin-left: 0px;
     padding-right: 0px;
     margin-right: 0px;
     float: left;
+
+    height: fit-content;
+    width:max-content;
 }
 .plyr {
     background-color: none transparent;
