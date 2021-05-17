@@ -10,17 +10,11 @@ export default function Welcome() {
       content = ( 
         <> 
          <Head>
-        <title>Welcome </title>
+        <title>Panther Crush Closed </title>
       </Head>
 
-      <div className={styles.plyr} id="player" >
-      <script src= "https://cdn.plyr.io/3.6.4/plyr.js"></script>
-
-      <iframe
-        height="100%" width="100%" opacity="0.5"
-        src="https://player.vimeo.com/video/546275864?background=1&controls=0"
-        frameBorder="0" >
-      </iframe>
+      <div className={styles.bye}>
+        <img src="images/landscape.jpg" className={styles.Goodbye}></img>
       </div>
     </>
     )
