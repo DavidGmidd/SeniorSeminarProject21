@@ -8,14 +8,15 @@ import styles from '../Styles/Home.module.css';
 import CrushList from '../pages/CrushList';
 import Values from '../pages/Values';
 import FAQ from '../pages/FAQ';
-import Welcome from '../pages/Welcome';
+import Welcome from '../pages/GoodBye';
+import Goodbye from '../pages/GoodBye';
 
 
 
 export default function Home() {
   
 
-  const [currentMode, setCurrentMode] = useState('Welcome');
+  const [currentMode, setCurrentMode] = useState('Goodbye');
   
   let content;
 
@@ -121,7 +122,7 @@ export default function Home() {
     content = ( <FAQ /> )
   } 
   else  {
-    content = ( <Welcome /> ) 
+    content = ( <Goodbye /> ) 
   } 
 
   
