@@ -8,7 +8,6 @@ import styles from '../Styles/Home.module.css';
 import CrushList from '../pages/CrushList';
 import Values from '../pages/Values';
 import FAQ from '../pages/FAQ';
-import Welcome from '../pages/GoodBye';
 import Goodbye from '../pages/GoodBye';
 
 
@@ -43,11 +42,7 @@ export default function Home() {
    
       <div className={styles.plyr} id="player" >
 
-      {/* <video width="400px" height="300px" controls>
-  <source src="images/middlebury_720.mp4" type="video/mp4"/>
-        </video> */}
-        
-
+      
         <iframe
         height="100%" width="100%" opacity="0.5"
         src="https://player.vimeo.com/video/546275933?background=1&controls=0"
@@ -60,12 +55,6 @@ export default function Home() {
             <p>How it works:</p>
         </div>
       </div>
-
-      {/* <iframe
-      height="100%" width="100%" opacity="0.5"
-      src="https://player.vimeo.com/video/545712031?background=1&controls=0"
-      frameBorder="0" >
-      </iframe> */}
       <div className={styles.instructionsContainer}> 
       <img src="images/final_how_it_works.png" className={styles.instructions}/>
       </div>
