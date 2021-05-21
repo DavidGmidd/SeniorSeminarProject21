@@ -15,7 +15,7 @@ import Goodbye from '../pages/GoodBye';
 export default function Home() {
   
 
-  const [currentMode, setCurrentMode] = useState('Goodbye');
+  const [currentMode, setCurrentMode] = useState('GoodBye');
   
   let content;
 
